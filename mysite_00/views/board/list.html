@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+    <head>
+
+        <meta charset="UTF-8">
+        
+        <title>MySite0</title>
+
+        <link rel="stylesheet" href="../../asset/css/common.css" type="text/css">
+        <link rel="stylesheet" href="../../asset/css/board.css" type="text/css">
+
+    </head>
+
+    <body>
+
+        <div id="main-wrap">
+
+            <!-- 헤더영역 -->
+            <div  class="clearfix"  id="main-header">
+
+                <!--사이트 로고-->
+                <div id="main-header-logo"><h1><a href="../main/main_01.html">MySite</a></h1></div>
+                <!--//사이트 로고-->
+
+                <!--로그인-->
+                <div id="main-header-signin">
+                    <ul class="clearfix">
+                        <li><a href="">로그인</a></li>
+                        <li><a href="">회원가입</a></li>
+                    </ul>
+                </div>
+                <!--//로그인-->
+
+            </div>
+            <!--//헤더영역-->
+
+            <!--네비게이션 영역 -->
+            <div id="main-nav">
+                <ul class="clearfix">
+                    <li>입사지원서</li>
+                    <li>게시판</li>
+                    <li>갤러리</li>
+                    <li class="last">방명록</li>
+                </ul>
+            </div>
+            <!--//네비게이션 영역 -->
+
+            <!-- 콘텐츠 영역 -->
+
+            <div class="clearfix" id="content">
+                <!-- 왼쪽메뉴 -->
+                <div id="aside">
+                    <h2>
+                        게시판
+                    </h2>
+
+                    <ul>
+                        <li>일반 게시판</li>
+                        <li>댓글 게시판</li>
+                        <li>첨부 게시판</li>
+                    </ul>
+                </div>
+                <!-- //왼쪽메뉴 -->
+
+                <!-- 게시판-메인 영역 -->
+                <div id="main">
+                    
+                    <div class="clearfix" id="main-head">
+
+                        <h3>
+                            일반게시판
+                        </h3>
+
+                        <ul class="clearfix">
+
+                            <li>홈</li>
+
+                            <li>게시판</li>
+
+                            <li class="last">일반 게시판</li>
+
+                        </ul>
+
+                    </div>
+                    <!-- //메인헤드 -->
+
+                    <!-- 메인 바디 -->
+                    <div id="main-body">
+
+                        <!-- 메인 보드 -->
+                        <div id="board">
+
+                            <div id="search-area" class="clearfix">
+
+                                <form action="#" method="get">
+
+                                    <input type="text" name="keyword" value="">
+
+                                    <button type="submit">검색</button>
+
+                                </form>
+                            </div>
+                            <!-- 게시판 리스트 -->  
+                            <div id="board-list">
+
+                                <table>
+
+                                    <thead>
+
+                                        <tr>
+
+                                            <th>번호</th>
+                                            <th>제목</th>
+                                            <th>글쓴이</th>
+                                            <th>조회수</th>
+                                            <th>작성일</th>
+                                            <th></th>
+
+                                        </tr>
+
+                                    </thead>
+
+                                    <tbody>
+
+                                        <tr>
+                                            <td>aaaa</td>
+                                            <td>bbbbbbbbb</td>
+                                            <td>ccccccc</td>
+                                            <td>dddddd</td>
+                                            <td>dddddd</td>
+                                            <td>삭제</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>aaaa</td>
+                                            <td>bbbbbbbbb</td>
+                                            <td>ccccccc</td>
+                                            <td>dddddd</td>
+                                            <td>dddddd</td>
+                                            <td>삭제</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>aaaa</td>
+                                            <td>bbbbbbbbb</td>
+                                            <td>ccccccc</td>
+                                            <td>dddddd</td>
+                                            <td>dddddd</td>
+                                            <td>삭제</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>aaaa</td>
+                                            <td>bbbbbbbbb</td>
+                                            <td>ccccccc</td>
+                                            <td>dddddd</td>
+                                            <td>dddddd</td>
+                                            <td>삭제</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>aaaa</td>
+                                            <td>bbbbbbbbb</td>
+                                            <td>ccccccc</td>
+                                            <td>dddddd</td>
+                                            <td>dddddd</td>
+                                            <td>삭제</td>
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+                                <!-- //게시판 리스트 -->
+
+                                <!-- 페이징 -->
+                                <div id="paser">
+
+                                    <ol class="clearfix">
+
+                                        <li><a href="">◄</a></li>
+                                        <li><a href="">1</a></li>
+                                        <li><a href="">2</a></li>
+                                        <li><a href="">3</a></li>
+                                        <li><a href="">4</a></li>
+                                        <li><a href="">5</a></li>
+                                        <li><a class="active" href="">6</a></li>
+                                        <li><a href="">7</a></li>
+                                        <li><a href="">8</a></li>
+                                        <li><a href="">9</a></li>
+                                        <li><a href="">10</a></li>
+                                        <li><a href="">►</a></li>
+
+                                    </ol>
+
+                                    <a id="button-write" href="">글쓰기</a>
+                                </div>
+                                <!-- //페이징 -->
+                            </div>
+
+                        </div>
+                        <!-- //메인 보드 -->
+                        
+                    </div>
+                    <!-- //메인 바디 -->
+                </div>
+                <!-- //게시판-메인 영역 -->
+
+            </div>
+            <!-- //콘텐츠 영역 -->
+
+            <!-- 푸터 영역 -->
+            <div id="main-footer">
+                <p>copyright ©2021 장재영. All right reserved</p>
+            </div>
+            <!-- //푸터 영역 -->
+
+        </div>
+
+    </body>
+
+</html>

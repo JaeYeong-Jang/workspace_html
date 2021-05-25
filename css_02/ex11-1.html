@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+
+        <style>
+            
+            body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, 
+            legend, p, select, table, th, td, tr, textarea, button, form {
+            margin: 0; padding: 0;}
+
+            body{
+                margin: 0px 0px 0px 0px;
+            }
+            .box-red{
+                border: 1px solid #000;
+                width: 300px;
+                background-color: #f00;
+                margin: 10px 10px 10px 10px;
+
+            }
+            /*마진은 서로다른 상하 간격이 큰값으로 겹친다.*/
+            .box-blue{
+                width: 300px;
+                background-color: #00f;
+                border: 1px solid #000;
+                margin: 10px 0px 0px 0px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="box-red">
+            box-red
+        </div>
+
+        <div class="box-blue">
+            box-blue
+        </div>
+
+    </body>
+
+</html>

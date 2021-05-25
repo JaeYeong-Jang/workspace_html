@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, 
+legend, p, select, table, th, td, tr, textarea, button, form {
+margin: 0px 0px 0px 0px; 
+padding: 0px 0px 0px 0px;
+font-family: "맑은 고딕", 돋음;
+font-size: 12px;
+}
+
+#signup {
+    width: 750px;
+}
+
+.form-group {
+    padding: 10px 0px 0px 0px;
+    border-top:1px solid #e6e6e6;
+}
+
+.form-txt {
+    width: 80px;
+    display: inline-block
+}
+
+#txt-address{
+    width: 350px;
+    margin: 5px 0px 0px 0px;
+}
+#pr {
+    text-align: left;
+    vertical-align: top;
+}
+
+#txt-content {
+    width: 400px;
+    height: 150px;
+}
+
+div input[type="radio"],div input[type="checkbox"] {
+    margin: 0px 10px 0px 0px;
+}
+
+.buttons{
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 200px;
+    border-top: 1px solid #e6e6e6;
+}
+.buttons button {
+    width: 75px;
+    padding : 5px;
+}

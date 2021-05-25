@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+/* 검색 영역 */
+#board #search-area {
+    margin: 0px 0px 10px 0px;
+}
+
+#board #search-area form {
+    float: right;
+}
+
+#board #search-area form input[type="text"] {
+    width: 150px;
+    height: 25px;
+}
+
+#board #search-area form button {
+    padding: 3px 5px 3px 5px;
+}
+/* //검색 영역 */
+
+#board #board-list table {
+    margin: 0px 0px 10px 0px;
+    width: 800px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#board #board-list table thead tr > td {
+    background-color: #dddddd;
+}
+
+#board #board-list table tbody tr td {
+    border-top: 1px dotted #000;
+    text-align: center;
+}
+
+/* 페이징 */
+
+#board #paser {
+    text-align: center;
+
+}
+
+#board #paser ol {
+    display: inline-block;
+    width: 220px;
+    /*margin: 0px auto;*/
+    /*display: inline-block;*/
+}
+
+#board #paser ol > li{
+    float: left;
+    margin: 0px 5px 0px 0px;
+    
+}
+
+#board #paser ol > li > a.active {
+    font-size: 15px;
+    font-weight: bold;
+    color: #0f0;
+}
+
+#board #paser #button-write{
+    float: right;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #808080;
+    background-color: #dddddd;
+    border-radius: 5px;
+}

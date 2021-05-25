@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title>html5</title>
+
+        <style>
+            /*
+            input[type="password"]{font-size: 50px;}
+            */
+            input[name="userpw"]{background-color: #ff0000;}
+
+            
+        </style>
+
+    </head>
+
+    <body>
+
+        <p>목차</p>
+        <ol>
+            <li><a href="./ex01.html" target="">h1~h6 태그</a></li>
+            <li><a href="./ex02.html" target="">p br blockquote q strong b em i태그</a></li>
+            <li><a href="./ex03.html" target="">ol ul 리스트</a></li>
+            <li><a href="./ex04.html" target="">img a 태그</a></li>
+            <li><a href="./ex05.html" target="">table thead tbody tr th td 태그</a></li>
+            <li><a href="./ex06.html" target="">테이블 태그와 행,열 병합 속성</a></li>
+            <li><a href="./ex07.html" target="">테이블 태그 세분화</a></li>
+            <li><a href="./ex08.html" target="">테이블 태그 합치기 연습문제</a></li>
+            <li><a href="./ex09.html" target="">폼 태그</a></li>
+        </ol>
+        <hr>
+
+        <form action="join.jsp" method="get">
+
+            <label for="uid">아이디</label>
+            <input id="uid" type="text" name="userid" value="" placeholder="ID"> <br>
+
+            <label for="uname">이름</label>
+            <input id="uname" type="text" name="username" value="" placeholder="NAME"><br>
+
+            <label for="txt-pw">비밀번호</label>
+            <input id="txt-pw" type="password" name="userpw" value="" placeholder="PW"><br>
+
+            <label for="file-proimg">프로필 사진</label>
+            <input id="file-proimg" type="file" name="file" value=""><br>
+
+            <!--추가로 확인 테스트 해볼것-->
+            <input type="date" name="" value="">
+
+            <input type="email" name="" value="">
+
+            <input type="search" name="" value="">
+
+            <input type="number" name="" value="">
+
+            <input type="month" name="" value="">
+
+            <input type="hidden" name="code" value="1234"> <br>
+
+            <label for="rdo-apple">사과</label>
+            <input id="rdo-apple" type="radio" name="fruit" value="apple">
+
+            <label for="rdo-grape">포도</label>
+            <input id="rdo-grape" type="radio" name="fruit" value="grape">
+            
+            <label for="rdo-pair">배</label>
+            <input id="rdo-pair" type="radio" name="fruit" value="pair">
+
+            <br>
+
+            <label for="rdo-m1">1월</label>
+            <input id="rdo-m1" type="radio" name="month" value="january">
+
+            <label for="rdo-m2">2월</label>
+            <input id="rdo-m2" type="radio" name="month" value="feburary">
+
+            <label for="rdp-m3">3월</label>
+            <input id="rdo-m3" type="radio" name="month" value="march">
+
+            <br>
+            <br>
+
+            <label for="cb-1">독서</label>
+            <input id="cb-1" type="checkbox" name="hobby" value="book">
+
+            <label for="cb-2">음악</label>
+            <input id="cb-2" type="checkbox" name="hobby" value="music">
+
+            <label for="cb-3">여행</label>
+            <input id="cb-3" type="checkbox" name="hobby" value="trip">
+
+            <br>
+
+            <label for="cb-dog">개</label>
+            <input id="cb-dog" type="checkbox" name="pet" value="Dog">
+
+            <label for="cb-cat">고양이</label>
+            <input id="cb-cat" type="checkbox" name="pet" value="Cat" checked="checked">
+
+            <label for="cb-bird">새</label>
+            <input id="cb-bird" type="checkbox" name="pet" value="Bird">
+
+            <br>
+            <label for="sel-telecom">이동통신사</label>
+            <select id="sel-telecom" name="telecom">
+                <option value="" selected="selected">선택하세요</option>
+                <option value="sk">SKT</option>
+                <option value="kt">KT</option>
+                <option value="lg">LGU+</option>
+                <option value="et">기타</option>
+            </select>
+
+            <br>
+            <br>
+            <label for="are-content">본문</label>
+            <textarea placeholder="본문을 적어주세요" id="are-content" name="content"></textarea>
+            <!--value 사용 주의-->
+            
+            <br>
+            <button type="submit">전송</button> <!--추천-->
+            <!--<input type="submit" value="전송">비 추천-->
+
+            <button type="reset">초기화</button><br>
+
+
+        </form>
+
+
+    </body>
+
+
+</html>
